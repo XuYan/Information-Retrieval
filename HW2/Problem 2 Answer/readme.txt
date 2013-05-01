@@ -1,0 +1,3 @@
+Part 2 is comprised of 2 py files. One is pre.py, which is used to generate "sparse_matrix.mtx"(transition matrix obtained from mention relationship in data set) and "title.pickle"(All userids involved in transition matrix). In fact, this design is very convenient for testing after how many rounds PageRank will converge(I do not need to bear the construction of transition matrix again and again). After running "part2.py", a "finalVector.pickle", which records the PageRank result, will be created. It will be used in part3.
+
+For your convenience, you can just input "python part2.py" and the result will be returned in about 8 minutes. However, if you want to reconstruct the transition matrix, just input "python pre.py", which will take 6 minutes.
